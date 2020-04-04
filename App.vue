@@ -15,7 +15,7 @@
 <style>
 	/*每个页面公共css */
 	/*每个页面公共css */
-	@import url("./common/css/uni.css");
-	@import url("./common/css/icon.css");
-	@import url("./common/css/animate.min.css");
+	@import url("./common/uni.css");
+	@import url("./common/icon.css");
+	@import url("./common/animate.min.css");
 </style>
