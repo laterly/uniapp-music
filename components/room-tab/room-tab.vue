@@ -1,15 +1,9 @@
 <template>
 	<view class="room-tab">
-		<view class="room-tab-bar">
-			<image :src="require('../../images/index/song.png')" mode="widthFix" class="room-image" lazy-load></image>
+		<view class="room-tab-bar" v-for="(tab,index) in tabList" :key="index" @tap="clickTo(tab.id)">
+			<image :src="tab.img" mode="widthFix" class="room-image" lazy-load :style="'width:'+tab.width+'px'"></image>
 			<text class="room-text">
-				私人电台
-			</text>
-		</view>
-		<view class="room-tab-bar" style="background: url(../../images/index/menu.png);">
-			<image src="../../images/index/song.png" mode="widthFix" class="room-image" lazy-load></image>
-			<text class="room-text">
-				私人电台
+				{{tab.des}}
 			</text>
 		</view>
 	</view>
@@ -17,39 +11,79 @@
 
 <script>
 	export default {
-		components: {
-		},
+		components: {},
 		data() {
 			return {
-				}
+				tabList: [{
+						id: 1,
+						img: '../../static/imgs/index/song.png',
+						width: 44,
+						des: '私人电台'
+					},
+					{
+						id: 2,
+						img: '../../static/imgs/index/menu.png',
+						width: 38,
+						des: '音乐歌单'
+					},
+					{
+						id: 3,
+						img: '../../static/imgs/index/singer.png',
+						width: 51,
+						des: '音乐MV'
+					},
+					{
+						id: 4,
+						img: '../../static/imgs/index/rank.png',
+						width: 42,
+						des: '排行榜'
+					}
+				]
+			}
 		},
 		methods: {
-	
+			clickTo(id) {
+				switch (id) {
+					case 1:
+						this.path.navigateTo('../../pages/station/station');
+						break;
+					case 2:
+						this.path.navigateTo('../../pages/sheet/sheet');
+						break;
+					case 3:
+						this.path.navigateTo('../../pages/movie/movie');
+						break;
+					default:
+						this.path.navigateTo('../../pages/rank/rank');
+						break;
+				}
+			}
 		}
 	}
 </script>
 
 <style lang="stylus" scoped>
-	.room-tab{
+	.room-tab {
 		display flex;
 		box-sizing border-box;
 		padding 0 80upx;
 		justify-content space-between;
 	}
-	.room-tab-bar{
+
+	.room-tab-bar {
 		display flex;
 		flex-direction column;
 		align-items center;
 		justify-content center;
-		.room-image{
-			width 52px;
+
+		.room-image {
 			height auto;
 		}
-		.room-text{
+
+		.room-text {
 			font-size 25upx;
-			color #8e8e8e;
+			color #434343;
 			margin-top 10upx;
 		}
 	}
-	
 </style>

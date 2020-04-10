@@ -11,19 +11,23 @@
 			<swiper class="swiper-box" :style="{'height':swiperHeight+'px'}" @change="tabChange" :current="currentIndex">
 				<swiper-item>
 					<scroll-view :scroll-y="true" class="list">
-						<view class="index-list">1</view>
+						<my></my>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item>
 					<scroll-view :scroll-y="true" class="list">
 						<view class="index-list">
 							<room></room>
+							<playerPlaceholder></playerPlaceholder>
 						</view>
 					</scroll-view>
 				</swiper-item>
 				<swiper-item>
 					<scroll-view :scroll-y="true" class="list">
-						<view class="index-list">3</view>
+						<view class="index-list">
+							<life></life>
+							<playerPlaceholder></playerPlaceholder>
+						</view>
 					</scroll-view>
 				</swiper-item>
 			</swiper>
@@ -33,7 +37,16 @@
 
 <script>
 	import room from '@/components/room/room.vue'
+	import my from '@/components/my/my.vue'
+	import life from '@/components/life/life';
+	import playerPlaceholder from '@/components/player/player-placeholder.vue'
 	export default {
+		components: {
+			room,
+			my,
+			life,
+			playerPlaceholder
+		},
 		data() {
 			return {
 				currentIndex: 1,
@@ -83,11 +96,13 @@
 <style>
 	.uni-swiper-tab {
 		border-bottom: none;
+		background-color: #fff;
 	}
 	.uni-tab-bar-box{
 		padding: 0 20%;
 		box-sizing: border-box;
 		margin-top: 10upx;
+		background-color: #fff;
 	}
 	.swiper-tab-list {
 		color: #969696;
@@ -100,8 +115,25 @@
 		color: #343434;
 		font-size: 33upx;
 	}
-
-	.uni-tab-bar .active::after {
+	.uni-tab-bar .active{
+		transition: 0.2s all linear;
+	}
+	.uni-tab-bar{
+		transition: 0.2s all linear;
+	}
+	.swiper-tab-list::after{
+		position: absolute;
+		content: '';
+		width: 0;
+		height: 6upx;
+		border-radius: 20upx;
+		background-color: #23e379;
+		left: 50%;
+		transform: translateX(-50%);
+		transition: 0.3s width linear;
+		opacity: 0;
+	}
+	.swiper-tab-list.active::after {
 		position: absolute;
 		content: '';
 		width: 50upx;
@@ -111,6 +143,7 @@
 		left: 50%;
 		transform: translateX(-50%);
 		bottom: -10%;
+		opacity: 1;
 	}
 
 	.index-list {

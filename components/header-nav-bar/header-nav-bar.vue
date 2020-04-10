@@ -5,7 +5,7 @@
 				<text class="iconfont icon-caidan left-icon"></text>
 			</view>
 			<view slot="right"><text class="iconfont icon-xinxi right-icon"></text></view>
-			<view class="nav-search">
+			<view class="nav-search" @tap="toSearch">
 				<input type="text" value="" placeholder="您想听什么？" class="search-input" :disabled="true"/>
 				<text class="iconfont icon-sousuo search-icon"></text>
 			</view>
@@ -37,7 +37,9 @@
 	
 		},
 		methods: {
-	
+			toSearch(){
+				this.path.navigateTo('../../pages/search/search')
+			}
 		}
 	}
 </script>

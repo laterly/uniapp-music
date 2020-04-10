@@ -71,5 +71,48 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
-    }
+    },
+	"h5":{
+		"devServer": {
+			"port": 8080,
+			"disableHostCheck": true,
+			"proxy": {
+				"/m": {
+					"target": "http://m.kugou.com",
+					"changeOrigin": true,
+					"pathRewrite": {
+						"^/m": ""
+					}
+				},
+				"/msearchcdn":{
+					"target": "http://msearchcdn.kugou.com",
+					"changeOrigin": true,
+					"pathRewrite": {
+						"^/msearchcdn": ""
+					}
+				},
+				"/aproxy": {
+					"target": "http://mobilecdn.kugou.com",
+					"changeOrigin": true,
+					"pathRewrite": {
+						"^/aproxy": ""
+					}
+				},
+				"/mobileservice": {
+					"target": "http://mobileservice.kugou.com",
+					"changeOrigin": true,
+					"pathRewrite": {
+						"^/mobileservice": ""
+					}
+				},
+				"/wwwapi": {
+					"target": "http://wwwapi.kugou.com",
+					"changeOrigin": true,
+					"pathRewrite": {
+						"^/wwwapi": ""
+					}
+				}
+			}
+		}
+	}
 }

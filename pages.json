@@ -16,11 +16,82 @@
 				
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/movie/movie",
+            "style" : {
+				"navigationBarTitleText":"音乐MV"
+			}
+        }
+        ,{
+            "path" : "pages/rank/rank",
+            "style" : {
+				"navigationBarTitleText":"排行榜"
+			}
+        }
+        ,{
+            "path" : "pages/sheet/sheet",
+            "style" : {
+				"navigationBarTitleText":"音乐歌单"
+			}
+        }
+        ,{
+            "path" : "pages/station/station",
+            "style" : {
+				"navigationBarTitleText":"私人电台"
+			}
+        }
+        ,{
+            "path" : "pages/lyrics/lyrics",
+            "style" : {
+				"h5":{
+					"titleNView":false
+				},
+				"app-plus":{
+					"animationDuration":200,
+					"animationType":"slide-in-bottom",
+					"scrollIndicator":"none",
+					"titleNView":false
+				},
+				"mp-weixin":{
+					"navigationStyle":"custom"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/rank-detail/rank-detail",
+            "style" : {
+				"h5":{
+					"titleNView":false
+				},
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":false
+				},
+				"mp-weixin":{
+					"navigationStyle":"custom"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"h5":{
+					"titleNView":false
+				},
+				"app-plus":{
+					"scrollIndicator":"none",
+					"titleNView":false
+				},
+				"mp-weixin":{
+					"navigationStyle":"custom"
+				}
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "心乐",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
 	}
 }

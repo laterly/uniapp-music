@@ -8,8 +8,6 @@
       :interval="swiperConfig.interval" 
       :duration="swiperConfig.duration" 
       :circular="swiperConfig.circular"
-      :previous-margin="swiperConfig.previousMargin"
-      :next-margin="swiperConfig.nextMargin"
       @change="swiperChange" 
       @animationfinish="animationfinish">
       <swiper-item v-for="(item, i) in bannerList" :key="i">
@@ -19,8 +17,10 @@
 		<!-- 4.padding值也需要根据不同项设定不同值，但理同justifyContent -->
         <div class="image-container" 
 			:class="[curIndex===0?((i===listLen-1)?'item-left':(i===1?'item-right':'item-center')):(curIndex===listLen-1?(i===0?'item-right':(i===listLen-2?'item-left':'item-center')):(i===curIndex-1?'item-left':(i===curIndex+1?'item-right':'item-center')))]">
-          <image :src="item.picture" 
+          <image :src="item.imgurl" 
             class="slide-image" 
+			mode="aspectFill"
+			lazy-load
             :style="{
               transform: curIndex===i?'scale(' + scaleX + ',' + scaleY + ')':'scale(1,1)',
               transitionDuration: '.3s',
@@ -52,12 +52,10 @@ export default {
 				indicatorDots: true,
 				indicatorColor: 'rgba(255, 255, 255, .4)',
 				indicatorActiveColor: 'rgba(255, 255, 255, 1)',
-				autoplay: false,
-				interval: 3000,
-				duration: 300,
-				circular: true,
-				previousMargin: '58rpx',
-				nextMargin: '58rpx'
+				autoplay: true,
+				interval: 5000,
+				duration: 400,
+				circular: true
 			}
 		}
 	},
@@ -105,10 +103,13 @@ export default {
   }
 }
 </script>
-<style lang="stylus" scoped>
+<style lang="stylus">
+.banner-container .uni-swiper-dots-horizontal{
+	bottom 35px !important;
+}
 .banner-container {
   width: 100vw;
-  height: 426rpx;
+  height: 340rpx;
   margin-top -20upx;
   .image-container {
 	box-sizing: border-box;
@@ -116,9 +117,10 @@ export default {
 	height: 100%;
 	display: flex;
 	.slide-image {
-	  width: 550rpx;
-	  height: 328rpx;
+	  width: 600rpx;
+	  height:230rpx;
 	  z-index: 200;
+	  border-radius: 8upx;
 	}
   }
   .item-left {
