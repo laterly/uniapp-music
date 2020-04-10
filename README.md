@@ -7,10 +7,10 @@
 
 #### 首先上UI效果图（UI同学的设计图）
 
->![这是首页](https://github.com/laterly/uniapp--music/blob/master/static/minx/index.jpg)
->![这是我的页面](https://github.com/laterly/uniapp--music/blob/master/static/minx/my.jpg)
->![这是动态页面](https://github.com/laterly/uniapp--music/blob/master/static/minx/domgtai.jpg)
->![这是搜索页面](https://github.com/laterly/uniapp--music/blob/master/static/minx/sousuo.jpg)
+>![这是首页](https://github.com/laterly/uniapp--music/tree/master/static/minx/index.jpg)
+>![这是我的页面](https://github.com/laterly/uniapp--music/tree/master/static/minx/my.jpg)
+>![这是动态页面](https://github.com/laterly/uniapp--music/tree/master/static/minx/domgtai.jpg)
+>![这是搜索页面](https://github.com/laterly/uniapp--music/tree/master/static/minx/sousuo.jpg)
 
 #### 项目
 
