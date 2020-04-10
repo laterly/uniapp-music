@@ -1,0 +1,87 @@
+.my {
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  box-sizing: border-box;
+}
+.my-list {
+  width: 335rpx;
+  height: 180rpx;
+  background-color: #f8f8f8;
+  border-radius: 8rpx;
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.my-list:nth-child(1) {
+  margin-top: 10rpx;
+}
+.my-list:nth-child(2) {
+  margin-top: 10rpx;
+}
+.my-list .my-img {
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+.my-list .my-des {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-right: 33rpx;
+  box-sizing: border-box;
+  padding-top: 50rpx;
+}
+.my-list .my-des .name {
+  color: #343434;
+  font-size: 33rpx;
+}
+.my-list .my-des .count {
+  font-size: 25rpx;
+  color: #8e8e8e;
+}
+.more-icon {
+  display: none;
+}
+.my-list:nth-child(7),
+.my-list:last-child {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 100%;
+          flex: 0 1 100%;
+  -webkit-box-pack: initial;
+  -webkit-justify-content: initial;
+          justify-content: initial;
+  position: relative;
+}
+.my-list:nth-child(7) .my-des,
+.my-list:last-child .my-des {
+  margin-left: 76rpx;
+}
+.my-list:nth-child(7) .more-icon,
+.my-list:last-child .more-icon {
+  display: block;
+  position: absolute;
+  right: 20rpx;
+  top: 8rpx;
+  font-size: 40rpx;
+  color: #8e8e8e;
+}
+

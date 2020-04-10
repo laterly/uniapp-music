@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "音乐MV",
+  "usingComponents": {
+    "tab-bar-base": "/components/tab-bar-base/tab-bar-base",
+    "movie-list": "/components/movie-list/movie-list"
+  }
+}

@@ -33,6 +33,7 @@
 		methods:{
 			clickSong(item){
 				this.$emit('goPlay', item);
+				return;
 				//点集播放列表单曲，判断是要执行什么操作
 				//是否正在播放,2是正在播放，1是暂停，0是还没有歌曲
 				console.log('this.nowPlayList',this.nowPlayList,item);

@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "special-banner": "/components/special-banner/special-banner",
+    "room-tab": "/components/room-tab/room-tab",
+    "room-cell": "/components/room-cell/room-cell",
+    "goods-slide": "/components/goods-slide/goods-slide",
+    "song-list": "/components/song-list/song-list",
+    "banner-swiper": "/components/banner-swiper/banner-swiper"
+  }
+}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['nextClick',['$event']]]]]}}" class="room-cell data-v-87147a3a" bindtap="__e"><view class="title data-v-87147a3a">{{''+title+''}}</view><view class="more data-v-87147a3a">查看更多<text class="iconfont icon-tubiao- data-v-87147a3a"></text></view></view>

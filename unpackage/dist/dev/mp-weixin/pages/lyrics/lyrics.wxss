@@ -1,0 +1,80 @@
+.uni-app-placeholder {
+  width: 100%;
+  height: 64px;
+}
+.uni-h5-placeholder {
+  width: 100%;
+  height: 44px;
+}
+.top-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 44px;
+}
+.bar-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.bar-text .bar-title {
+  font-size: 30rpx;
+  font-weight: 400;
+  color: #434343;
+}
+.bar-text .bar-des {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: rgba(117,117,117,0.7);
+}
+.lyrics-pic-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 66rpx;
+}
+.lyrics-pic-box .lyrics-pic {
+  width: 486rpx;
+  height: 486rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #7d8f9b;
+}
+.lyrics-box {
+  margin-top: 60rpx;
+  height: 230rpx;
+  position: relative;
+}
+.lyrics-box .lyrics-text {
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #434343;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.lyrics-box::after {
+  content: '';
+  width: 100%;
+  height: 220rpx;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-image: -webkit-linear-gradient(top, rgba(255,255,225,0), #fff);
+  background-image: linear-gradient(to bottom, rgba(255,255,225,0), #fff);
+}
+

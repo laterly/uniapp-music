@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "header-nav-bar": "/components/header-nav-bar/header-nav-bar",
+    "tab-bar": "/components/tab-bar/tab-bar",
+    "player": "/components/player/player"
+  }
+}

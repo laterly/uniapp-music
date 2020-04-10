@@ -1,0 +1,96 @@
+.player .player-bottom {
+  width: 100%;
+  height: 104rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.player .player-bottom .player-bottom-box {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 0 33rpx;
+}
+.player .player-bottom .player-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.player .player-bottom .player-left .pic {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 100%;
+}
+.player .player-bottom .player-left .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-left: 28rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.player .player-bottom .player-left .title .name {
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #333;
+  margin-top: -5rpx;
+}
+.player .player-bottom .player-left .title .des {
+  font-size: 22rpx;
+  font-weight: 400;
+  color: #666;
+  margin-top: -5rpx;
+}
+.player .player-bottom .player-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.player .player-bottom .player-right .player-icon {
+  font-size: 60rpx;
+  color: #757575;
+  margin-left: 36rpx;
+}
+.player .player-bottom .player-right .player-icon:nth-child(1) {
+  margin-left: 0;
+}
+.player .player-bottom .player-right .player-icon-play {
+  color: #23e379;
+}
+

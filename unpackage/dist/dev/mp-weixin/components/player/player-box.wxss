@@ -1,0 +1,80 @@
+.player-box.data-v-9c2e5f52 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.box-top.data-v-9c2e5f52 {
+  box-sizing: border-box;
+  padding: 0 85rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.box-top .box-top-icon.data-v-9c2e5f52 {
+  font-size: 50rpx;
+  color: #464347;
+}
+.box-progress .progress-time.data-v-9c2e5f52 {
+  font-size: 22rpx;
+  font-weight: 300;
+  color: #9c9c9c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: -30rpx;
+}
+.box-progress .progress-time .left-time.data-v-9c2e5f52 {
+  margin-left: 35rpx;
+}
+.box-progress .progress-time .right-time.data-v-9c2e5f52 {
+  margin-right: 35rpx;
+}
+.box-player.data-v-9c2e5f52 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.box-player .box-player-left-icon.data-v-9c2e5f52 {
+  font-size: 50rpx;
+  color: #23e379;
+}
+.box-player .box-player-right-icon.data-v-9c2e5f52 {
+  font-size: 50rpx;
+  color: #23e379;
+}
+.box-player .box-center.data-v-9c2e5f52 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.box-player .box-center .box-center-left-icon.data-v-9c2e5f52 {
+  font-size: 50rpx;
+  color: #23e379;
+}
+.box-player .box-center .box-center-center-icon.data-v-9c2e5f52 {
+  font-size: 120rpx;
+  color: #23e379;
+  margin: 0 69rpx;
+}
+.box-player .box-center .box-center-right-icon.data-v-9c2e5f52 {
+  font-size: 47rpx;
+  color: #23e379;
+}
+

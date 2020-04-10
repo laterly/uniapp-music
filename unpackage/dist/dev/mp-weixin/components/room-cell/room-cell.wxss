@@ -1,0 +1,25 @@
+.room-cell.data-v-87147a3a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.room-cell .title.data-v-87147a3a {
+  font-weight: bold;
+  font-size: 38rpx;
+  color: #434343;
+}
+.room-cell .more.data-v-87147a3a {
+  font-size: 25rpx;
+  color: #8e8e8e;
+}
+

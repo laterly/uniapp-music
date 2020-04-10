@@ -1,5 +1,5 @@
 {
-    "name" : "uniapp-base",
+    "name" : "心乐",
     "appid" : "__UNI__A91EA67",
     "description" : "",
     "versionName" : "1.0.0",
@@ -50,16 +50,65 @@
             /* ios打包配置 */
             "ios" : {},
             /* SDK配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {
+                "ad" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "C:/Users/cb/Desktop/qidong.png",
+                    "xhdpi" : "C:/Users/cb/Desktop/qidong.png",
+                    "xxhdpi" : "C:/Users/cb/Desktop/qidong.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "C:/Users/cb/Desktop/qidong.png"
+                    }
+                }
+            }
         }
     },
     /* 快应用特有相关 */
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx5fdf1c6ff11e28ce",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "minified" : true,
+            "postcss" : true,
+            "es6" : true
         },
         "usingComponents" : true
     },
@@ -72,47 +121,48 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-	"h5":{
-		"devServer": {
-			"port": 8080,
-			"disableHostCheck": true,
-			"proxy": {
-				"/m": {
-					"target": "http://m.kugou.com",
-					"changeOrigin": true,
-					"pathRewrite": {
-						"^/m": ""
-					}
-				},
-				"/msearchcdn":{
-					"target": "http://msearchcdn.kugou.com",
-					"changeOrigin": true,
-					"pathRewrite": {
-						"^/msearchcdn": ""
-					}
-				},
-				"/aproxy": {
-					"target": "http://mobilecdn.kugou.com",
-					"changeOrigin": true,
-					"pathRewrite": {
-						"^/aproxy": ""
-					}
-				},
-				"/mobileservice": {
-					"target": "http://mobileservice.kugou.com",
-					"changeOrigin": true,
-					"pathRewrite": {
-						"^/mobileservice": ""
-					}
-				},
-				"/wwwapi": {
-					"target": "http://wwwapi.kugou.com",
-					"changeOrigin": true,
-					"pathRewrite": {
-						"^/wwwapi": ""
-					}
-				}
-			}
-		}
-	}
+    "h5" : {
+        "devServer" : {
+            "port" : 8080,
+            "disableHostCheck" : true,
+            "proxy" : {
+                "/m" : {
+                    "target" : "http://m.kugou.com",
+                    "changeOrigin" : true,
+                    "pathRewrite" : {
+                        "^/m" : ""
+                    }
+                },
+                "/msearchcdn" : {
+                    "target" : "http://msearchcdn.kugou.com",
+                    "changeOrigin" : true,
+                    "pathRewrite" : {
+                        "^/msearchcdn" : ""
+                    }
+                },
+                "/aproxy" : {
+                    "target" : "http://mobilecdn.kugou.com",
+                    "changeOrigin" : true,
+                    "pathRewrite" : {
+                        "^/aproxy" : ""
+                    }
+                },
+                "/mobileservice" : {
+                    "target" : "http://mobileservice.kugou.com",
+                    "changeOrigin" : true,
+                    "pathRewrite" : {
+                        "^/mobileservice" : ""
+                    }
+                },
+                "/wwwapi" : {
+                    "target" : "http://wwwapi.kugou.com",
+                    "changeOrigin" : true,
+                    "pathRewrite" : {
+                        "^/wwwapi" : ""
+                    }
+                }
+            }
+        },
+        "title" : "心乐"
+    }
 }

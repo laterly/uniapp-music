@@ -1,0 +1,1 @@
+<view class="rank"><rank-list vue-id="749c3d80-1" details="{{rankData}}" data-event-opts="{{[['^onClick',[['clickTo']]]]}}" bind:onClick="__e" bind:__l="__l"></rank-list></view>

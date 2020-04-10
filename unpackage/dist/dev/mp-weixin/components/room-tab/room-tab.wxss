@@ -1,0 +1,34 @@
+.room-tab.data-v-071a39ce {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 80rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.room-tab-bar.data-v-071a39ce {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.room-tab-bar .room-image.data-v-071a39ce {
+  height: auto;
+}
+.room-tab-bar .room-text.data-v-071a39ce {
+  font-size: 25rpx;
+  color: #434343;
+  margin-top: 10rpx;
+}
+

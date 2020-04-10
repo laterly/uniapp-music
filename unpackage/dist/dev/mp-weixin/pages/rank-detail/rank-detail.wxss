@@ -1,0 +1,168 @@
+.top-bar.data-v-dc5d30d2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 44px;
+  z-index: 1000;
+}
+.top-bg.data-v-dc5d30d2 {
+  height: 389rpx;
+  position: relative;
+  width: 100%;
+}
+.top-bg .top-bg-img.data-v-dc5d30d2 {
+  height: 389rpx;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  width: 100%;
+}
+.top-bg .top-center.data-v-dc5d30d2 {
+  position: absolute;
+  left: 50%;
+  top: 160rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 683rpx;
+  height: 389rpx;
+  background: #fff;
+  border-radius: 4rpx;
+  box-shadow: 0 0 4px #f7f6f9;
+}
+.top-bg .top-center .center-top.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  padding: 33rpx 33rpx 0 33rpx;
+}
+.top-bg .top-center .center-top .center-top-img.data-v-dc5d30d2 {
+  width: 222rpx;
+  height: 222rpx;
+  border-radius: 4rpx;
+}
+.top-bg .top-center .center-top .center-top-right.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-left: 27rpx;
+}
+.top-bg .top-center .center-top .center-top-right .avatar.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #757575;
+}
+.top-bg .top-center .center-top .center-top-right .avatar .avatar-img.data-v-dc5d30d2 {
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 50%;
+  margin-right: 16rpx;
+}
+.top-bg .top-center .center-top .center-top-right .title.data-v-dc5d30d2 {
+  font-size: 33rpx;
+  font-weight: bold;
+  color: #434343;
+  height: 84rpx;
+  margin-top: 33rpx;
+}
+.top-bg .top-center .center-top .center-top-right .des.data-v-dc5d30d2 {
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #757575;
+}
+.top-bg .top-center .center-top .center-top-right .des .des-text.data-v-dc5d30d2 {
+  margin-left: 53rpx;
+}
+.top-bg .top-center .center-bottom.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.top-bg .top-center .center-bottom .center-bottom-list.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.top-bg .top-center .center-bottom .center-bottom-list .iconfont.data-v-dc5d30d2 {
+  font-size: 50rpx;
+  color: #434343;
+}
+.top-bg .top-center .center-bottom .center-bottom-list .des.data-v-dc5d30d2 {
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #757575;
+  margin-top: -20rpx;
+}
+.rank-song-box.data-v-dc5d30d2 {
+  box-sizing: border-box;
+  padding: 0 33rpx;
+  margin-top: 180rpx;
+}
+.rank-song-box .rank-song.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.rank-song-box .rank-song .left.data-v-dc5d30d2 {
+  font-size: 29rpx;
+  font-weight: 400;
+  color: #757575;
+  margin-right: 40rpx;
+  margin-left: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.rank-song-box .rank-song .right.data-v-dc5d30d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 172rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  border-bottom: 1rpx #f2f2f2 solid;
+}
+.rank-song-box .rank-song .right .title.data-v-dc5d30d2 {
+  font-size: 29rpx;
+  font-weight: 500;
+  color: #434343;
+}
+.rank-song-box .rank-song .right .des.data-v-dc5d30d2 {
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #757575;
+}
+

@@ -36,27 +36,27 @@ let actions = {
 			}
 		})
 	},
-	getSongDetailsData({commit},obj){
-		return new Promise((reslove,reject)=>{
-			getSongDetails3().then(res=>{
-				console.log('getSongDetails',JSON.stringify(res));
-				
-			})
-		})  
-	},
 	// getSongDetailsData({commit},obj){
 	// 	return new Promise((reslove,reject)=>{
-	// 		getSongDetails2({
-	// 		  hash: obj.hash
-	// 		}).then(res=>{
+	// 		getSongDetails3().then(res=>{
 	// 			console.log('getSongDetails',JSON.stringify(res));
-	// 			if(res.statusCode===200){
-	// 				reslove(res.data);
-	// 				commit('setNowPlayList', res.data);
-	// 			}
+				
 	// 		})
 	// 	})  
-	// }
+	// },
+	getSongDetailsData({commit},obj){
+		return new Promise((reslove,reject)=>{
+			getSongDetails2({
+			  hash: obj.hash
+			}).then(res=>{
+				console.log('getSongDetails',JSON.stringify(res));
+				if(res.statusCode===200){
+					reslove(res.data);
+					commit('setNowPlayList', res.data);
+				}
+			})
+		})  
+	}
 }
 
 export default actions;

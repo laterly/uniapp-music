@@ -1,0 +1,108 @@
+.life-con {
+  box-sizing: border-box;
+  padding: 0 35rpx;
+}
+.life-list {
+  margin-top: 45rpx;
+}
+.life-list:nth-child(1) {
+  margin-top: 0;
+}
+.life-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.life-box .life-img {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 100%;
+}
+.life-box .life-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.life-box .life-right .name {
+  font-size: 30rpx;
+  color: #434343;
+}
+.life-box .life-right .time {
+  font-size: 20rpx;
+  color: #9c9c9c;
+}
+.life-list-img {
+  width: 100%;
+  height: 147rpx;
+  margin-top: 30rpx;
+  border-radius: 8rpx;
+}
+.life-img-box {
+  position: relative;
+}
+.life-play-icon {
+  position: absolute;
+  width: 120rpx;
+  height: 120rpx;
+  background: rgba(0,0,0,0.2);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.life-play-icon .play-icon {
+  font-size: 60rpx;
+  color: #fff;
+}
+.life-title {
+  font-size: 29rpx;
+  font-weight: 400;
+  color: #333;
+}
+.life-text {
+  font-size: 27rpx;
+  color: #434343;
+  margin-top: 15rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.life-icon-box {
+  color: #9c9c9c;
+  font-size: 24rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.life-icon-box .love-icon {
+  margin-right: 15rpx;
+}
+.life-icon-box .msg {
+  margin-left: 45rpx;
+}
+.life-icon-box .msg-icon {
+  margin-right: 15rpx;
+}
+

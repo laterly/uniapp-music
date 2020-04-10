@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<uni-nav-bar class="search-bar" left-icon="arrowleft" :statusBar="true" :fixed="true" leftWidth="25" @clickLeft="back">
+		<uni-nav-bar class="search-bar" left-icon="arrowleft" :statusBar="true" :fixed="true" leftWidth="25px" @clickLeft="back">
 			<view class="nav-search">
 				<input type="text" value="" placeholder="您想听什么？" v-model="keyValue" class="search-input" :focus="true" @input="searchSongInput" />
 				<text class="iconfont icon-sousuo search-icon" @tap="toSearch"></text>

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my": "/components/my/my",
+    "room": "/components/room/room",
+    "life": "/components/life/life",
+    "player-placeholder": "/components/player/player-placeholder"
+  }
+}
