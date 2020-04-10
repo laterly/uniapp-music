@@ -11,8 +11,6 @@
 <div style="width:100%" align="left"><img src="https://t1.picb.cc/uploads/2020/04/10/kFDwN7.jpg" alt="这是我的页面" width="300" height="auto" align="center" /></div><br/>
 
 
-![我是图片](https://t1.picb.cc/uploads/2020/04/10/kFDwN7.jpg)
-
 #### 这是动态页面
 <div style="width:100%" align="left"><img src="https://t1.picb.cc/uploads/2020/04/10/kFDfz6.jpg" alt="这是动态页面" width="300" height="auto" align="center" /></div><br/>
 
